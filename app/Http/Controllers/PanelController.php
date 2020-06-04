@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use App;
+use Response;
 
 class PanelController extends Controller
 {
@@ -16,13 +17,23 @@ class PanelController extends Controller
         $nuevoProducto = new App\Producto;
         $nuevoProducto->titulo_producto = $request->tituloProducto;
         $nuevoProducto->descripcion_producto = $request->descripcionProducto;
-        $nombreFoto = $request->file('fotoProducto')->storeAs('imagenes',$request->file('fotoProducto')->getClientOriginalName());
-        $request->file('fotoProducto')->storeAs('imagenes',$request->file('fotoProducto')->getClientOriginalName());
-        $nuevoProducto->foto_producto = $nombreFoto;
+        if($request->file('fotoProducto')){
+            $file = $request->file('fotoProducto');
+            $file->store('public/images');
+            $nuevoProducto->foto_producto = $file->hashName();
+        }
         $nuevoProducto->save();
         return redirect('/mostrarproductos');
     }
 
+    public function viewImage($rutaImage)
+    {
+        $title = "";
+        $image = storage_path('app') . '/public/images/' . $rutaImage;
+
+        return Response::download($image, $title, [], 'inline'); // aca, que es ? 
+    }
+    
     public function mostrarProductos(){
         $productos = App\Producto::all();
         return view('/panel/mostrarProductos', compact('productos'));
@@ -52,4 +63,6 @@ class PanelController extends Controller
         $producto->save();
         return redirect('/mostrarproductos');
     }
+
+   
 }

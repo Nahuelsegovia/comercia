@@ -11,11 +11,9 @@
         @csrf
         <h1>{{$producto->titulo_producto}}</h1>
         <h1>{{$producto->descripcion_producto}}</h1>
-        <p>{{$producto->foto_producto}}</p>
-        <img src="/storage/app/imagenes/{{$producto->foto_producto}}" alt="lalal">
+        <img src="{{ route('imagen.ver', $producto->foto_producto) }}" alt="lalal">
         <input type="submit" value="Eliminar producto">
         </form>
-
     <form action="/editar/{{$producto->id}}" method="get">
     <input type="submit" value="Editar producto">
     </form>
