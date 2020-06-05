@@ -1282,6 +1282,8 @@ figcaption.categorie-boxs {
     -ms-transition: all 0.45s ease-in-out;
     margin-top: -38px;
 }
+
+
 figure.itg-hover-section:hover figcaption.categorie-boxs,
 figure.itg-hover-section:hover figcaption.categorie-boxs a {
     opacity: 1;
@@ -1335,6 +1337,7 @@ figure.itg-hover-section:before {
     float: left;
     position: relative;
 }
+
 .Categories-blog a.itg-button:hover {
     color: #fff
 }
@@ -1399,6 +1402,7 @@ figure.itg-hover-style1:hover.itg-hover-style1:after {
 }
 figure.itg-hover-style1 {
     position: relative;
+    margin-top: 30px;
 }
 .categorie-text-box {
     position: absolute;

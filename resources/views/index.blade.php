@@ -437,13 +437,13 @@
                                 buscas en comercios locales, sin demoras.
                             <p>
                         </div>
-                        <div class="Categories-blog pad-top40">
+                        <div class="Categories-blog pad-top40 Categorie-top" >
                             <div class="col-md-3 col-sm-6 col-xs-12">
                                 <figure class="itg-hover-style1">
                                     <img src="assets/img/products/comidas.png" alt="">
                                     <figcaption class="pad-bottom10 figure-boxx cotegories">
-                                        <h4 class="theme-headdings text-center">Modern Chairs</h4>
-                                        <p>View the collection</p>
+                                        <h4 class="theme-headdings text-center">Comidas</h4>
+                                        <p>Ver productos</p>
                                         <div class="categorie-text-box">
                                             <h4><a href="collection-list-sidebar.html">Modern Chairs</a></h4>
                                             <p>Lorem Ipsum is a dummy text that is mainly used by.</p>
@@ -452,12 +452,12 @@
                                     </figcaption>
                                 </figure>
                             </div>
-                            <div class="col-md-3 col-sm-6 col-xs-12 responsive-top">
+                            <div class="col-md-3 col-sm-6 col-xs-12 responsive-top Categorie-top">
                                 <figure class="itg-hover-style1">
                                     <img src="assets/img/products/ropa.png" alt="">
                                     <figcaption class="pad-bottom10 figure-boxx cotegories">
-                                        <h4 class="theme-headdings text-center">Modern Chairs</h4>
-                                        <p>View the collection</p>
+                                        <h4 class="theme-headdings text-center">Ropa</h4>
+                                        <p>Ver productos</p>
                                         <div class="categorie-text-box">
                                             <h4><a href="collection-list-sidebar.html">Modern Chairs</a></h4>
                                             <p>Lorem Ipsum is a dummy text that is mainly used by.</p>
@@ -470,8 +470,8 @@
                                 <figure class="itg-hover-style1">
                                     <img src="assets/img/products/tecnologia.png" alt="">
                                     <figcaption class="pad-bottom10 figure-boxx cotegories">
-                                        <h4 class="theme-headdings text-center">Modern Chairs</h4>
-                                        <p>View the collection</p>
+                                        <h4 class="theme-headdings text-center">Tecnología</h4>
+                                        <p>Ver productos</p>
                                         <div class="categorie-text-box">
                                             <h4><a href="collection-list-sidebar.html">Modern Chairs</a></h4>
                                             <p>Lorem Ipsum is a dummy text that is mainly.</p>
@@ -484,8 +484,8 @@
                                 <figure class="itg-hover-style1">
                                     <img src="assets/img/products/farmacia.png" alt="">
                                     <figcaption class="pad-bottom10 figure-boxx cotegories">
-                                        <h4 class="theme-headdings text-center">Modern Chairs</h4>
-                                        <p>View the collection</p>
+                                        <h4 class="theme-headdings text-center">Farmacia</h4>
+                                        <p>Ver productos</p>
                                         <div class="categorie-text-box">
                                             <h4><a href="collection-list-sidebar.html">Modern Chairs</a></h4>
                                             <p>Lorem Ipsum is a dummy text that is mainly used by.</p>
@@ -499,8 +499,8 @@
                                 <figure class="itg-hover-style1">
                                     <img src="assets/img/products/ferreteria.png" alt="">
                                     <figcaption class="pad-bottom10 figure-boxx cotegories">
-                                        <h4 class="theme-headdings text-center">Modern Chairs</h4>
-                                        <p>View the collection</p>
+                                        <h4 class="theme-headdings text-center">Ferretería</h4>
+                                        <p>Ver productos</p>
                                         <div class="categorie-text-box">
                                             <h4><a href="collection-list-sidebar.html">Modern Chairs</a></h4>
                                             <p>Lorem Ipsum is a dummy text that is mainly used by.</p>
@@ -514,8 +514,8 @@
                                 <figure class="itg-hover-style1">
                                     <img src="assets/img/products/bebidas.png" alt="">
                                     <figcaption class="pad-bottom10 figure-boxx cotegories">
-                                        <h4 class="theme-headdings text-center">Modern Chairs</h4>
-                                        <p>View the collection</p>
+                                        <h4 class="theme-headdings text-center">Bebidas</h4>
+                                        <p>Ver productosn</p>
                                         <div class="categorie-text-box">
                                             <h4><a href="collection-list-sidebar.html">Modern Chairs</a></h4>
                                             <p>Lorem Ipsum is a dummy text that is mainly used by.</p>
@@ -529,8 +529,8 @@
                                 <figure class="itg-hover-style1">
                                     <img src="assets/img/products/cosmeticos.png" alt="">
                                     <figcaption class="pad-bottom10 figure-boxx cotegories">
-                                        <h4 class="theme-headdings text-center">Modern Chairs</h4>
-                                        <p>View the collection</p>
+                                        <h4 class="theme-headdings text-center">Cosméticos</h4>
+                                        <p>Ver productos</p>
                                         <div class="categorie-text-box">
                                             <h4><a href="collection-list-sidebar.html">Modern Chairs</a></h4>
                                             <p>Lorem Ipsum is a dummy text that is mainly used by.</p>
@@ -544,8 +544,8 @@
                                 <figure class="itg-hover-style1">
                                     <img src="assets/img/products/servicios.png" alt="">
                                     <figcaption class="pad-bottom10 figure-boxx cotegories">
-                                        <h4 class="theme-headdings text-center">Modern Chairs</h4>
-                                        <p>View the collection</p>
+                                        <h4 class="theme-headdings text-center">Servicios</h4>
+                                        <p>Ver productos</p>
                                         <div class="categorie-text-box">
                                             <h4><a href="collection-list-sidebar.html">Modern Chairs</a></h4>
                                             <p>Lorem Ipsum is a dummy text that is mainly used by.</p>
