@@ -16,7 +16,7 @@
         <meta name="author" content="desideals4u.com" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <title>Furniturecraft - Multipurpose Ecommerce Responsive Html5 template</title>
+        <title>Commercia</title>
         <!-- Bootstrap -->
         <!-- Favicon -->
         <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
@@ -69,15 +69,7 @@
                                                     <p><a href="#">1-800-123-Hello</a></p>
                                                 </div>
                                             </div>
-                                            <div class="col-md-4 col-sm-4 col-xs-12">
-                                                <div class="top-icons-box1">
-                                                    <a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
-                                                </div>
-                                                <div class="top-icons-box2">
-                                                    <p><a href="#">hello@gmail.com</a></p>
-                                                    <p><a href="#">info@gmail.com</a></p>
-                                                </div>
-                                            </div>
+                                            
                                             <div class="col-md-4 col-sm-4 col-xs-12">
                                                 <div class="top-icon-box3">
                                                     <ul>
@@ -168,50 +160,16 @@
                                         <!-- nav -->
                                         <ul class="nav navbar-nav">
                                             <li>
-                                                <a href="index.html">Home</a>
+                                                <a href="index.html">Inicio</a>
                                             </li>
-                                            <li>
-                                                <a href="#">Page</a>
-                                                <ul class="dropdown-menu">
-                                                    <li><a href="account.html">Account</a></li>
-                                                    <li><a href="coming-soon.html">Comming Soon</a></li>
-                                                    <li><a href="404-page.html">404 Error</a></li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                <a href="#">Shop</a>
-                                                <ul class="dropdown-menu">
-                                                    <li><a href="collection-fullwidth.html">Collection Full</a></li>
-                                                    <li><a href="collection-list-sidebar.html">Collection Sidebar</a></li>
-                                                    <li><a href="cart.html">Cart</a></li>
-                                                    <li><a href="checkout.html">Checkout</a></li>
-                                                    <li><a href="order.html">Order</a></li>
-                                                    <li><a href="product-detail.html">Product Detail</a></li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                <a href="#">Blog</a> 
-                                                <ul class="dropdown-menu">
-                                                    <li><a href="blog-grid-style1.html">Blogs Style 1</a></li>
-                                                    <li><a href="blog-grid-style2.html">Blogs Style 2</a></li>
-                                                    <li><a href="blog-list-sidebar.html">Blog List With Sidebar</a></li>
-                                                    <li class="left-side">
-                                                        <a href="#">Single Blog</a>
-                                                        <ul class="dropdown-menu">
-                                                            <li><a href="blog-detail-sidebar.html">With Sidebar</a></li>
-                                                            <li><a href="blog-detail-no-sidebar.html">Without Sidebar</a></li>
-                                                        </ul>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li>
+                                           
                                                 <a href="faq-with-sidebar.html">
-                                                FAQs 
+                                                Preguntas frecuentes 
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="contact-page.html">
-                                                Contact
+                                                Contacto
                                                 </a>
                                             </li>
                                         </ul>
@@ -311,11 +269,10 @@
                                 <div class="slider-box1">
                                     <div class="row">
                                         <div class="main-slider-heading">
-                                            <h1 class="">Designer Modern Sofa</h1>
+                                            <h1 class="">Publicidad</hDesign1>
                                         </div>
                                         <div class="slider-section-1-text">
-                                            <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,<br> 
-                                                lorem quis bibendum auctor elit. 
+                                            <p>Este espacio está disponible para publicidad. 
                                             </p>
                                         </div>
                                         <a href="collection-list-sidebar.html" class="itg-button mar-top20">Shop Now</a>
@@ -337,11 +294,10 @@
                             <div class=" col-md-8 slider-box1">
                                 <div class="row">
                                     <div class="main-slider-heading">
-                                        <h1 class="">Designer Modern Sofa</h1>
+                                        <h1 class="">Publicidad</h1>
                                     </div>
                                     <div class="slider-section-1-text">
-                                        <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,<br> 
-                                            lorem quis bibendum auctor elit. 
+                                        <p>Este espacio está disponible para publicidad. 
                                         </p>
                                     </div>
                                     <a href="collection-list-sidebar.html" class="itg-button mar-top20">Shop Now</a>
@@ -362,11 +318,10 @@
                             <div class=" col-md-8 slider-box1">
                                 <div class="row">
                                     <div class="main-slider-heading">
-                                        <h1 class="">Designer Modern Sofa</h1>
+                                        <h1 class="">Publicidad</h1>
                                     </div>
                                     <div class="slider-section-1-text">
-                                        <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,<br> 
-                                            lorem quis bibendum auctor elit. 
+                                        <p>Este espacio está disponible para publicidad. 
                                         </p>
                                     </div>
                                     <a href="collection-list-sidebar.html" class="itg-button mar-top20">Shop Now</a>
@@ -378,55 +333,7 @@
             </div>
         </section>
         <!--//==slider section End==//-->
-        <!--//==collection-section Start==//-->
-        <div class="collection-section pad-top-bottom80">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-sm-8 col-xs-12 ">
-                        <figure class="itg-hover-section">
-                            <img src="assets/img/all/collection1.jpg" alt="">
-                            <figcaption class="categorie-boxs">
-                                <h3><a href="collection-list-sidebar.html">Unique's<br>Design bed</a></h3>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12 responsive-top">
-                        <figure class="itg-hover-section">
-                            <img src="assets/img/all/collection3.jpg" alt="">
-                            <figcaption class="categorie-boxs">
-                                <h3><a href="collection-list-sidebar.html">Unique's<br>Design bed</a></h3>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <div class="clear"></div>
-                    <div class="col-md-4 col-sm-4 col-xs-12 pad-top30">
-                        <figure class="itg-hover-section">
-                            <img src="assets/img/all/collection4.jpg" alt="">
-                            <figcaption class="categorie-boxs">
-                                <h3><a href="collection-list-sidebar.html">Unique's<br>Design bed</a></h3>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12 pad-top30">
-                        <figure class="itg-hover-section">
-                            <img src="assets/img/all/collection5.jpg" alt="">
-                            <figcaption class="categorie-boxs">
-                                <h3><a href="collection-list-sidebar.html">Unique's<br>Design bed</a></h3>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12 pad-top30">
-                        <figure class="itg-hover-section">
-                            <img src="assets/img/all/collection6.jpg" alt="">
-                            <figcaption class="categorie-boxs">
-                                <h3><a href="collection-list-sidebar.html">Unique's<br>Design bed</a></h3>
-                            </figcaption>
-                        </figure>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--//==collection-section End==//-->
+        
         
         <!--//===Start quick vive popap==//-->
         <!--//================Quick view Start ==============//--> 
@@ -519,186 +426,21 @@
                 </div>
             </div>
         </div>
-        <!--//================Quick view End ==============//-->
-        <!--//===Products-sectioon Start==//-->
-        <section>
-            <div class="products-section pad-bottom80">
-                <div class="container">
-                    <div class="row">
-                        <div class="headding-box">
-                            <h3 class="theme-headdings">Our Products</h3>
-                            <p>Lorem ipsum dolor sit amet<br>
-                                consectetueradipiscing elit, sed diam nonummy
-                            <p>
-                        </div>
-                        <div class="products mar-top40">
-                            <div class="col-md-3 col-sm-6 col-xs-12">
-                                <figure class="itg-hover-style2">
-                                    <img src="assets/img/Products/Products1.png" alt="">
-                                    <div class="products-boxes">
-                                        <ul class="icon-hover">
-                                            <li><a data-toggle="modal" data-target="#myModal" href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></li>
-                                            <li><a href="product-detail.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <figcaption class=" figure-boxx figure-section-hover">
-                                        <h4 class="theme-headdings text-center pad-top10"><a href="product-detail.html">Modern Chairs</a></h4>
-                                        <p>$169.00</p>
-                                    </figcaption>
-                                </figure>
-                            </div>
-                            <div class="col-md-3 col-sm-6 col-xs-12 responsive-top">
-                                <figure class="itg-hover-style2">
-                                    <img src="assets/img/Products/Products2.png" alt="">
-                                    <div class="products-boxes">
-                                        <ul class="icon-hover">
-                                            <li><a data-toggle="modal" data-target="#myModal" href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></li>
-                                            <li><a href="product-detail.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <figcaption class=" figure-boxx figure-section-hover">
-                                        <h4 class="theme-headdings text-center pad-top10"><a href="product-detail.html">Modern Chairs</a></h4>
-                                        <p>$169.00</p>
-                                    </figcaption>
-                                </figure>
-                            </div>
-                            <div class="col-md-3 col-sm-6 col-xs-12 Categorie-top responsive-top">
-                                <figure class="itg-hover-style2">
-                                    <img src="assets/img/Products/Products3.png" alt="">
-                                    <div class="products-boxes">
-                                        <ul class="icon-hover">
-                                            <li><a data-toggle="modal" data-target="#myModal" href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></li>
-                                            <li><a href="product-detail.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <figcaption class=" figure-boxx figure-section-hover">
-                                        <h4 class="theme-headdings text-center pad-top10"><a href="product-detail.html">Modern Chairs</a></h4>
-                                        <p>$169.00</p>
-                                    </figcaption>
-                                </figure>
-                            </div>
-                            <div class="col-md-3 col-sm-6 col-xs-12 Categorie-top responsive-top">
-                                <figure class="itg-hover-style2">
-                                    <img src="assets/img/Products/Products4.png" alt="">
-                                    <div class="products-boxes">
-                                        <ul class="icon-hover">
-                                            <li><a data-toggle="modal" data-target="#myModal" href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></li>
-                                            <li><a href="product-detail.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <figcaption class=" figure-boxx figure-section-hover">
-                                        <h4 class="theme-headdings text-center pad-top10"><a href="product-detail.html">Modern Chairs</a></h4>
-                                        <p>$169.00</p>
-                                    </figcaption>
-                                </figure>
-                            </div>
-                            <div class="mar-top30 product-box1">
-                                <div class="col-md-3 col-sm-6 col-xs-12">
-                                    <figure class="itg-hover-style2">
-                                        <img src="assets/img/Products/Products5.png" alt="">
-                                        <div class="products-boxes">
-                                            <ul class="icon-hover">
-                                                <li><a data-toggle="modal" data-target="#myModal" href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></li>
-                                                <li><a href="product-detail.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <figcaption class=" figure-boxx figure-section-hover">
-                                            <h4 class="theme-headdings text-center pad-top10"><a href="product-detail.html">Modern Chairs</a></h4>
-                                            <p>$169.00</p>
-                                        </figcaption>
-                                    </figure>
-                                </div>
-                                <div class="col-md-3 col-sm-6 col-xs-12 responsive-top">
-                                    <figure class="itg-hover-style2">
-                                        <img src="assets/img/Products/Products6.png" alt="">
-                                        <div class="products-boxes">
-                                            <ul class="icon-hover">
-                                                <li><a data-toggle="modal" data-target="#myModal" href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></li>
-                                                <li><a href="product-detail.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <figcaption class=" figure-boxx figure-section-hover">
-                                            <h4 class="theme-headdings text-center pad-top10"><a href="product-detail.html">Modern Chairs</a></h4>
-                                            <p>$169.00</p>
-                                        </figcaption>
-                                    </figure>
-                                </div>
-                                <div class="col-md-3 col-sm-6 col-xs-12 Categorie-top responsive-top">
-                                    <figure class="itg-hover-style2">
-                                        <img src="assets/img/Products/Products7.png" alt="">
-                                        <div class="products-boxes">
-                                            <ul class="icon-hover">
-                                                <li><a data-toggle="modal" data-target="#myModal" href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></li>
-                                                <li><a href="product-detail.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <figcaption class=" figure-boxx figure-section-hover">
-                                            <h4 class="theme-headdings text-center pad-top10"><a href="product-detail.html">Modern Chairs</a></h4>
-                                            <p>$169.00</p>
-                                        </figcaption>
-                                    </figure>
-                                </div>
-                                <div class="col-md-3 col-sm-6 col-xs-12 Categorie-top responsive-top">
-                                    <figure class="itg-hover-style2">
-                                        <img src="assets/img/Products/Products8.png" alt="">
-                                        <div class="products-boxes">
-                                            <ul class="icon-hover">
-                                                <li><a data-toggle="modal" data-target="#myModal" href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></li>
-                                                <li><a href="product-detail.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <figcaption class=" figure-boxx figure-section-hover">
-                                            <h4 class="theme-headdings text-center pad-top10"><a href="product-detail.html">Modern Chairs</a></h4>
-                                            <p>$169.00</p>
-                                        </figcaption>
-                                    </figure>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--//===Products-sectioon End==//-->
-        <!--//===banner-section Start==//-->
-        <section>
-            <div class="banner-section">
-                <div class="special-style special-style-full special-style-semidark col-md-12 col-md-offset-0 pull-right">
-                    <div class="bg-image" style="background-image:url('assets/img/slider/banner1.jpg');"></div>
-                </div>
-                <div class="container pad-top-bottom130">
-                    <div class="banner-text-box">
-                        <h1 class="text-center">The ultimate in luxury and style.</h1>
-                        <p>Flat 15% off on Modern couch</p>
-                        <a href="collection-list-sidebar.html" class="itg-button mar-top20">Shop Now</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--//===banner-section End==//-->
-        <!--//===Categories-section Start==//-->
+
         <section>
             <div class="Categories-box pad-top80 pad-bottom80">
                 <div class="container">
                     <div class="row">
                         <div class="headding-box">
-                            <h3 class="theme-headdings">Our Categories</h3>
-                            <p>Lorem ipsum dolor sit amet<br>
-                                consectetueradipiscing elit, sed diam nonummy
+                            <h3 class="theme-headdings">Buscá productos de tu ciudad</h3>
+                            <p>Encontrá todo lo que<br>
+                                buscas en comercios locales, sin demoras.
                             <p>
                         </div>
                         <div class="Categories-blog pad-top40">
                             <div class="col-md-3 col-sm-6 col-xs-12">
                                 <figure class="itg-hover-style1">
-                                    <img src="assets/img/all/categorie1.png" alt="">
+                                    <img src="assets/img/products/comidas.png" alt="">
                                     <figcaption class="pad-bottom10 figure-boxx cotegories">
                                         <h4 class="theme-headdings text-center">Modern Chairs</h4>
                                         <p>View the collection</p>
@@ -712,7 +454,7 @@
                             </div>
                             <div class="col-md-3 col-sm-6 col-xs-12 responsive-top">
                                 <figure class="itg-hover-style1">
-                                    <img src="assets/img/all/categorie2.png" alt="">
+                                    <img src="assets/img/products/ropa.png" alt="">
                                     <figcaption class="pad-bottom10 figure-boxx cotegories">
                                         <h4 class="theme-headdings text-center">Modern Chairs</h4>
                                         <p>View the collection</p>
@@ -726,7 +468,7 @@
                             </div>
                             <div class="col-md-3 col-sm-6 col-xs-12 Categorie-top responsive-top">
                                 <figure class="itg-hover-style1">
-                                    <img src="assets/img/all/categorie3.png" alt="">
+                                    <img src="assets/img/products/automotores.png" alt="">
                                     <figcaption class="pad-bottom10 figure-boxx cotegories">
                                         <h4 class="theme-headdings text-center">Modern Chairs</h4>
                                         <p>View the collection</p>
@@ -740,7 +482,67 @@
                             </div>
                             <div class="col-md-3 col-sm-6 col-xs-12 Categorie-top responsive-top">
                                 <figure class="itg-hover-style1">
-                                    <img src="assets/img/all/categorie4.png" alt="">
+                                    <img src="assets/img/products/farmacia.png" alt="">
+                                    <figcaption class="pad-bottom10 figure-boxx cotegories">
+                                        <h4 class="theme-headdings text-center">Modern Chairs</h4>
+                                        <p>View the collection</p>
+                                        <div class="categorie-text-box">
+                                            <h4><a href="collection-list-sidebar.html">Modern Chairs</a></h4>
+                                            <p>Lorem Ipsum is a dummy text that is mainly used by.</p>
+                                            <a href="collection-list-sidebar.html" class="itg-button mar-top20">View Shop</a>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </div>
+
+                            <div class="col-md-3 col-sm-6 col-xs-12 Categorie-top responsive-top">
+                                <figure class="itg-hover-style1">
+                                    <img src="assets/img/products/ferreteria.png" alt="">
+                                    <figcaption class="pad-bottom10 figure-boxx cotegories">
+                                        <h4 class="theme-headdings text-center">Modern Chairs</h4>
+                                        <p>View the collection</p>
+                                        <div class="categorie-text-box">
+                                            <h4><a href="collection-list-sidebar.html">Modern Chairs</a></h4>
+                                            <p>Lorem Ipsum is a dummy text that is mainly used by.</p>
+                                            <a href="collection-list-sidebar.html" class="itg-button mar-top20">View Shop</a>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </div>
+
+                            <div class="col-md-3 col-sm-6 col-xs-12 Categorie-top responsive-top">
+                                <figure class="itg-hover-style1">
+                                    <img src="assets/img/products/bebidas.png" alt="">
+                                    <figcaption class="pad-bottom10 figure-boxx cotegories">
+                                        <h4 class="theme-headdings text-center">Modern Chairs</h4>
+                                        <p>View the collection</p>
+                                        <div class="categorie-text-box">
+                                            <h4><a href="collection-list-sidebar.html">Modern Chairs</a></h4>
+                                            <p>Lorem Ipsum is a dummy text that is mainly used by.</p>
+                                            <a href="collection-list-sidebar.html" class="itg-button mar-top20">View Shop</a>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </div>
+
+                            <div class="col-md-3 col-sm-6 col-xs-12 Categorie-top responsive-top">
+                                <figure class="itg-hover-style1">
+                                    <img src="assets/img/products/cosmeticos.png" alt="">
+                                    <figcaption class="pad-bottom10 figure-boxx cotegories">
+                                        <h4 class="theme-headdings text-center">Modern Chairs</h4>
+                                        <p>View the collection</p>
+                                        <div class="categorie-text-box">
+                                            <h4><a href="collection-list-sidebar.html">Modern Chairs</a></h4>
+                                            <p>Lorem Ipsum is a dummy text that is mainly used by.</p>
+                                            <a href="collection-list-sidebar.html" class="itg-button mar-top20">View Shop</a>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </div>
+
+                            <div class="col-md-3 col-sm-6 col-xs-12 Categorie-top responsive-top">
+                                <figure class="itg-hover-style1">
+                                    <img src="assets/img/products/servicios.png" alt="">
                                     <figcaption class="pad-bottom10 figure-boxx cotegories">
                                         <h4 class="theme-headdings text-center">Modern Chairs</h4>
                                         <p>View the collection</p>
@@ -764,12 +566,13 @@
                 <div class="container">
                     <div class="row">
                         <div class="headding-box mar-bottom40">
-                            <h3 class="theme-headdings">Popular items</h3>
-                            <p>Lorem ipsum dolor sit amet<br>
-                                consectetueradipiscing elit, sed diam nonummy
+                            <h3 class="theme-headdings">Últimos productos</h3>
+                            <p>Encontrá los últimos productos<br>
+                                
                             <p>
                         </div>
                         <div id="product-items-slider" class="owl-carousel owl-theme">
+                            @foreach($productos as $producto)
                             <div class="item">
                                 <div class="col-md-12 col-sm-12 col-xs-12">
                                     <figure class="itg-hover-style2">
@@ -782,200 +585,22 @@
                                             </ul>
                                         </div>
                                         <figcaption class=" figure-boxx figure-section-hover">
-                                            <h4 class="theme-headdings text-center pad-top10"><a href="product-detail.html">Modern Chairs</a></h4>
+                                            <h4 class="theme-headdings text-center pad-top10"><a href="product-detail.html">{{$producto->titulo_producto}}</a></h4>
                                             <p>$169.00</p>
                                         </figcaption>
                                     </figure>
                                 </div>
                             </div>
-                            <div class="item">
-                                <div class="col-md-12 col-sm-12 col-xs-12">
-                                    <figure class="itg-hover-style2">
-                                        <img src="assets/img/Products/Products2.png" alt="">
-                                        <div class="products-boxes">
-                                            <ul class="icon-hover">
-                                                <li><a data-toggle="modal" data-target="#myModal" href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></li>
-                                                <li><a href="product-detail.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <figcaption class=" figure-boxx figure-section-hover">
-                                            <h4 class="theme-headdings text-center pad-top10"><a href="product-detail.html">Modern Chairs</a></h4>
-                                            <p>$169.00</p>
-                                        </figcaption>
-                                    </figure>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="col-md-12 col-sm-12 col-xs-12">
-                                    <figure class="itg-hover-style2">
-                                        <img src="assets/img/Products/Products3.png" alt="">
-                                        <div class="products-boxes">
-                                            <ul class="icon-hover">
-                                                <li><a data-toggle="modal" data-target="#myModal" href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></li>
-                                                <li><a href="product-detail.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <figcaption class=" figure-boxx figure-section-hover">
-                                            <h4 class="theme-headdings text-center pad-top10"><a href="product-detail.html">Modern Chairs</a></h4>
-                                            <p>$169.00</p>
-                                        </figcaption>
-                                    </figure>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="col-md-12 col-sm-12 col-xs-12">
-                                    <figure class="itg-hover-style2">
-                                        <img src="assets/img/Products/Products4.png" alt="">
-                                        <div class="products-boxes">
-                                            <ul class="icon-hover">
-                                                <li><a data-toggle="modal" data-target="#myModal" href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></li>
-                                                <li><a href="product-detail.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <figcaption class=" figure-boxx figure-section-hover">
-                                            <h4 class="theme-headdings text-center pad-top10"><a href="product-detail.html">Modern Chairs</a></h4>
-                                            <p>$169.00</p>
-                                        </figcaption>
-                                    </figure>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="col-md-12 col-sm-12 col-xs-12">
-                                    <figure class="itg-hover-style2">
-                                        <img src="assets/img/Products/Products1.png" alt="">
-                                        <div class="products-boxes">
-                                            <ul class="icon-hover">
-                                                <li><a data-toggle="modal" data-target="#myModal" href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></li>
-                                                <li><a href="product-detail.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <figcaption class=" figure-boxx figure-section-hover">
-                                            <h4 class="theme-headdings text-center pad-top10"><a href="product-detail.html">Modern Chairs</a></h4>
-                                            <p>$169.00</p>
-                                        </figcaption>
-                                    </figure>
-                                </div>
-                            </div>
-                        </div>
+                            @endforeach()
+                             
                     </div>
                 </div>
             </div>
         </section>
         <!--//===product-items-section End==//-->
-		<!--//===Featured-Product-sectoin Start==//-->
-        <section>
-            <div class="Featured-Product-sectoin grey-bgs pad-top-bottom80">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 col-sm-12 col-xs-12">
-                            <div class="row">
-                                <div class="col-md-6 col-sm-12 col-xs-12">
-                                    <figure>
-                                        <img src="assets/img/all/Featured-img.png" alt="">
-                                    </figure>
-                                </div>
-                                <div class="col-md-6 col-sm-12 col-xs-12 Featured-box Categorie-top">
-                                    <h3 class="theme-headdings">Featured Product</h3>
-                                    <p class="Featured-text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit
-                                        auctor aliquet. Aenean sollicitudin.
-                                    </p>
-                                    <h4 class="theme-headdings pad-top10">Modern Chairs</h4>
-                                    <div class="head-medial-text pad-top5">
-                                        <p>Availability: <span class="Products-in-stock">In stock</span></p>
-                                    </div>
-                                    <div class="star-box-section text-left">
-                                        <p>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="star-code fa fa-star-half-o" aria-hidden="true"></i>
-                                        </p>
-                                    </div>
-                                    <div class="text-left Featured-price">
-                                        <p>$101.00</p>
-                                    </div>
-                                    <a href="product-detail.html" class="itg-button mar-top10">Purchase now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--//===Featured-Product-sectoin End==//-->
-        <!--//===blog-section Strat==//-->
-        <section>
-            <div class="blog-section pad-top-bottom80">
-                <div class="container">
-                    <div class="row">
-                        <div class="headding-box mar-bottom40">
-                            <h3 class="theme-headdings">Our Blog</h3>
-                            <p>Lorem ipsum dolor sit amet<br>
-                                consectetueradipiscing elit, sed diam nonummy
-                            <p>
-                        </div>
-                        <div class="blog-box">
-                            <div class="col-md-4 col-sm-4 col-xs-12">
-                                <figure class="blog-img-section">
-                                    <img src="assets/img/all/blog1.jpg" alt="">
-                                    <figcaption class="blog-text-section">
-                                        <h4 class="theme-headdings pad-top20"><a href="blog-detail-sidebar.html">Lorem Ipsum Dolor</a></h4>
-                                        <ul class="blog-tect-icons">
-                                            <li><a href=""><i class="fa fa-calendar" aria-hidden="true"></i>May 24, 2015</a></li>
-                                            <li><a href=""><i class="fa fa-comment" aria-hidden="true"></i>12 Comments</a></li>
-                                        </ul>
-                                        <p>Lorem Ipsum is simply dummy text of the
-                                            rinting andey typesetting industry.
-                                        </p>
-                                        <a href="blog-detail-sidebar.html" class="btn-read">Read More <i class="fa fa-angle-double-right marL10" aria-hidden="true"></i></a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-                            <div class="col-md-4 col-sm-4 col-xs-12 responsive-top">
-                                <figure class="blog-img-section">
-                                    <img src="assets/img/all/blog2.jpg" alt="">
-                                    <figcaption class="blog-text-section">
-                                        <h4 class="theme-headdings pad-top20">
-                                            <a href="blog-detail-sidebar.html">Lorem Ipsum Dolor</a>
-                                        </h4>
-                                        <ul class="blog-tect-icons">
-                                            <li><a href=""><i class="fa fa-calendar" aria-hidden="true"></i>May 24, 2015</a></li>
-                                            <li><a href=""><i class="fa fa-comment" aria-hidden="true"></i>12 Comments</a></li>
-                                        </ul>
-                                        <p>Lorem Ipsum is simply dummy text of the
-                                            rinting andey typesetting industry.
-                                        </p>
-                                        <a href="blog-detail-sidebar.html" class="btn-read">Read More <i class="fa fa-angle-double-right marL10" aria-hidden="true"></i></a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-                            <div class="col-md-4 col-sm-4 col-xs-12 responsive-top">
-                                <figure class="blog-img-section">
-                                    <img src="assets/img/all/blog3.jpg" alt="">
-                                    <figcaption class="blog-text-section">
-                                        <h4 class="theme-headdings pad-top20"><a href="blog-detail-sidebar.html">Lorem Ipsum Dolor</a></h4>
-                                        <ul class="blog-tect-icons">
-                                            <li><a href=""><i class="fa fa-calendar" aria-hidden="true"></i>May 24, 2015</a></li>
-                                            <li><a href=""><i class="fa fa-comment" aria-hidden="true"></i>12 Comments</a></li>
-                                        </ul>
-                                        <p>Lorem Ipsum is simply dummy text of the
-                                            rinting andey typesetting industry.
-                                        </p>
-                                        <a href="blog-detail-sidebar.html" class="btn-read">Read More <i class="fa fa-angle-double-right marL10" aria-hidden="true"></i></a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--//===blog-section End==//-->
+        <!--//===product-items-section End==//-->
+	
+
         <!--//===Partner-section Start==//-->
         <section>
             <div class="Partner-section pad-bottom80">
@@ -1157,37 +782,6 @@
                 </div>
             </div>
         </footer>
-        <div id="style-switcher" style="left: 0px;">
-            <h2>Choose Color<a href="#"><i class="fa fa-cog fa-spin"></i></a></h2>
-            <div>
-                <ul class="colors" id="color1">
-                    <li>
-                        <a href="#" class="color"></a>
-                    </li>
-                    <li>
-                        <a href="#" class="color1 active"></a>
-                    </li>
-                    <li>
-                        <a href="#" class="color2"></a>
-                    </li>
-                    <li>
-                        <a href="#" class="color3"></a>
-                    </li>
-                    <li>
-                        <a href="#" class="color4"></a>
-                    </li>
-                    <li>
-                        <a href="#" class="color5"></a>
-                    </li>
-                    <li>
-                        <a href="#" class="color6"></a>
-                    </li>
-                    <li>
-                        <a href="#" class="color7"></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
         <!--//===footer-main-section End==//-->
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="assets/js/jquery.min.js"></script>

@@ -9,6 +9,12 @@ use Response;
 
 class PanelController extends Controller
 {
+    public function home(){
+        $productos = App\Producto::latest()->take(10)->get();
+        return view('/index', compact('productos'));
+    }
+
+
     public function index(){
         return view('/panel/panel');
     }
@@ -30,13 +36,13 @@ class PanelController extends Controller
     {
         $title = "";
         $image = storage_path('app') . '/public/images/' . $rutaImage;
-
         return Response::download($image, $title, [], 'inline'); // aca, que es ? 
     }
     
     public function mostrarProductos(){
         $productos = App\Producto::all();
         return view('/panel/mostrarProductos', compact('productos'));
+        return view('/index', compact('productos'));
     }
 
     public function producto($id){

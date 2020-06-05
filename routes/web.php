@@ -13,10 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
-
+Route::get('/', 'PanelController@home');
 
 Route::get('/panel', 'PanelController@index')->middleware('is_admin');
 
