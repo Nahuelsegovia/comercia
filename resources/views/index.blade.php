@@ -468,7 +468,7 @@
                             </div>
                             <div class="col-md-3 col-sm-6 col-xs-12 Categorie-top responsive-top">
                                 <figure class="itg-hover-style1">
-                                    <img src="assets/img/products/automotores.png" alt="">
+                                    <img src="assets/img/products/tecnologia.png" alt="">
                                     <figcaption class="pad-bottom10 figure-boxx cotegories">
                                         <h4 class="theme-headdings text-center">Modern Chairs</h4>
                                         <p>View the collection</p>
