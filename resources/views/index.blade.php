@@ -447,7 +447,9 @@
                                         <div class="categorie-text-box">
                                             <h4><a href="collection-list-sidebar.html">Modern Chairs</a></h4>
                                             <p>Lorem Ipsum is a dummy text that is mainly used by.</p>
-                                            <a href="collection-list-sidebar.html" class="itg-button mar-top20">View Shop</a>
+                                            <form action="/comprar" method="get">
+                                            <input type="submit" class="itg-button mar-top20" value="Ver productos">
+                                            </form>
                                         </div>
                                     </figcaption>
                                 </figure>
@@ -576,7 +578,7 @@
                             <div class="item">
                                 <div class="col-md-12 col-sm-12 col-xs-12">
                                     <figure class="itg-hover-style2">
-                                        <img src="assets/img/Products/Products1.png" alt="">
+                                        <img src="{{ route('imagen.ver', $producto->foto_producto) }}" alt="">
                                         <div class="products-boxes">
                                             <ul class="icon-hover">
                                                 <li><a data-toggle="modal" data-target="#myModal" href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></li>
@@ -587,6 +589,7 @@
                                         <figcaption class=" figure-boxx figure-section-hover">
                                             <h4 class="theme-headdings text-center pad-top10"><a href="product-detail.html">{{$producto->titulo_producto}}</a></h4>
                                             <p>$169.00</p>
+                                            <p></p>
                                         </figcaption>
                                     </figure>
                                 </div>

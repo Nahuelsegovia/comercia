@@ -28,6 +28,7 @@ class PanelController extends Controller
             $file->store('public/images');
             $nuevoProducto->foto_producto = $file->hashName();
         }
+        $nuevoProducto->categoria_producto = $request->categoriaProducto;
         $nuevoProducto->save();
         return redirect('/mostrarproductos');
     }
@@ -71,4 +72,7 @@ class PanelController extends Controller
     }
 
    
+    public function comprar(){
+        echo 'Hola compra';
+    }
 }

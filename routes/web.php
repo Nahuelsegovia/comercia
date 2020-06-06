@@ -30,3 +30,5 @@ Route::get('/editar/{id}', 'PanelController@editar');
 Route::put('editar/{id}', 'PanelController@update');
 
 Route::get('/imagen/{rutaImage}', 'PanelController@viewImage')->name('imagen.ver');
+
+Route::get('/comprar', 'PanelController@comprar');
