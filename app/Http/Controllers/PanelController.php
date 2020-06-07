@@ -19,6 +19,19 @@ class PanelController extends Controller
         return view('/panel/panel');
     }
 
+    public function registro(){
+        return view('/registro');
+    }
+
+    public function registrar(Request $request){
+        $nuevoUsuario = new App\Registro;
+        $nuevoUsuario->usuario = $request->usuario;
+        $nuevoUsuario->contrasenia = $request->contrasenia;
+        $nuevoUsuario->nombre_tienda = $request->nombreTienda;
+        $nuevoUsuario->save();
+        return 'Funco';
+    }
+
     public function crearProducto(Request $request){
         $nuevoProducto = new App\Producto;
         $nuevoProducto->titulo_producto = $request->tituloProducto;

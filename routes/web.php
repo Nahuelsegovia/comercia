@@ -15,6 +15,12 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'PanelController@home');
 
+Route::get('/registro', function(){
+    return view('/registro');
+});
+
+Route::post('/registrar', 'PanelController@registrar')->name('registrar.tienda');
+
 Route::get('/panel', 'PanelController@index')->middleware('is_admin');
 
 Route::post('/crearProducto', 'PanelController@crearProducto');
