@@ -3113,3 +3113,30 @@ div#productslist {
     padding-top: 160px;
     margin-bottom: -80px;
 }
+
+.formulario{
+    padding: 100px;
+}
+
+
+.formulariologin {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.formulariologin .form-control{
+    width: 400px !important;
+    margin: 10px;
+}
+
+.formulariologin .boton{
+    border: none;
+    background: white;
+    padding: 6px;
+}
+
+.formulariologin .boton:hover{
+    background: #098d73;
+    color: white;
+}

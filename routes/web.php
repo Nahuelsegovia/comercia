@@ -12,29 +12,29 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Auth::routes();
 
 Route::get('/', 'PanelController@home');
 
-Route::get('/registro', function(){
-    return view('/registro');
+Route::get('/imagen/{rutaImage}', 'PanelController@viewImage')->name('imagen.ver');
+Route::get('/mostrarproductos', 'PanelController@mostrarProductos');
+Route::get('/comprar', 'PanelController@comprar');
+
+Route::middleware('auth')->group(function(){
+
+    Route::get('/panel', 'PanelController@indexPanel');
+
+    Route::post('/crearProducto', 'PanelController@crearProducto');
+
+    Route::get('/producto/{id}', 'PanelController@producto');
+
+    Route::any('/eliminar/{id}', 'PanelController@eliminar');
+
+    Route::get('/editar/{id}', 'PanelController@editar');
+
+    Route::put('editar/{id}', 'PanelController@update');
+
+    Route::get('/home', 'HomeController@index')->name('home');
+
 });
 
-Route::post('/registrar', 'PanelController@registrar')->name('registrar.tienda');
-
-Route::get('/panel', 'PanelController@index')->middleware('is_admin');
-
-Route::post('/crearProducto', 'PanelController@crearProducto');
-
-Route::get('/mostrarproductos', 'PanelController@mostrarProductos');
-
-Route::get('/producto/{id}', 'PanelController@producto');
-
-Route::any('/eliminar/{id}', 'PanelController@eliminar');
-
-Route::get('/editar/{id}', 'PanelController@editar');
-
-Route::put('editar/{id}', 'PanelController@update');
-
-Route::get('/imagen/{rutaImage}', 'PanelController@viewImage')->name('imagen.ver');
-
-Route::get('/comprar', 'PanelController@comprar');

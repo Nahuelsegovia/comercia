@@ -3,7 +3,7 @@
 namespace App\Http\Middleware;
 
 use Closure;
-
+use App\Registro;
 class IsAdmin
 {
     /**
@@ -15,12 +15,10 @@ class IsAdmin
      */
     public function handle($request, Closure $next)
     {
-        if(5>1){
-            return $next($request);  
-        }
-
-        else{
-            return redirect('resources/views/welcome');
-        }
+        $user = new Registro;
+        $usuarios = $user->all();
+        dd($usuarios);
     }
+    
 }
+ 

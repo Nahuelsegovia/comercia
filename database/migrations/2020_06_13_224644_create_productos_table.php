@@ -18,6 +18,8 @@ class CreateProductosTable extends Migration
             $table->string('descripcion_producto');
             $table->string('foto_producto');
             $table->string('categoria_producto');
+            $table->float('precio_producto');
+            $table->string('id_usuario');
             $table->id();
             $table->timestamps();
         });
