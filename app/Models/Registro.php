@@ -16,7 +16,7 @@ class Registro extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'usuario', 'nombre_tienda', 'contrasenia',
+        'user', 'nombre_tienda', 'password'
     ];
 
     /**
@@ -25,7 +25,7 @@ class Registro extends Authenticatable
      * @var array
      */
     protected $hidden = [
-        'contrasenia', 'remember_token',
+        'password', 'remember_token',
     ];
 
     /**

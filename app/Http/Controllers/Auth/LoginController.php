@@ -28,6 +28,7 @@ class LoginController extends Controller
      */
     protected $redirectTo = '/panel';
 
+
     /**
      * Create a new controller instance.
      *
@@ -40,14 +41,22 @@ class LoginController extends Controller
 
     public function username()
     {
-        return 'usuario';
-        return view('/home', compact('usuario'));
+        return 'user';
+        //return view('/home', compact('usuario'));
     }
 
     protected function attemptLogin(Request $request)
     {
         return $this->guard()->attempt(
-        ['usuario' => $request->usuario, 'password' => $request->password], $request->filled('remember'));
+        ['user' => $request->user, 'password' => $request->password], $request->filled('remember'));
+    }
+
+    protected function validateLogin(Request $request)
+    {
+       $request->validate([
+            'user' => 'required|string',
+            'password' => 'required|string',
+        ]); 
     }
 
    

@@ -15,9 +15,9 @@
                             <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('Nombre de usuario') }}</label>
 
                             <div class="col-md-6">
-                                <input id="usuario" type="text" class="form-control @error('usuario') is-invalid @enderror" name="usuario" value="{{ old('usuario') }}" required autocomplete="usuario" autofocus>
+                                <input id="usuario" type="text" class="form-control @error('user') is-invalid @enderror" name="user" value="{{ old('user') }}" required autocomplete="usuario" autofocus>
 
-                                @error('usuario')
+                                @error('user')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
                                     </span>

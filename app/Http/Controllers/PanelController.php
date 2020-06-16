@@ -1,16 +1,30 @@
 <?php
 
 namespace App\Http\Controllers;
+
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+
+use App\Repositories\ProductoRepository;
 
 use App;
 use Response;
 
 class PanelController extends Controller
 {
+
+    private $productoRepository;
+
+    public function __construct(ProductoRepository $productoRepository)
+    {
+        $this->productoRepository = $productoRepository;
+    }
+
     public function home(){
         $productos = App\Models\Producto::latest()->take(10)->get();
+
+        //$productos = $this->productoRepository->find();
+        
         return view('/index', compact('productos'));
     }
 
@@ -21,19 +35,11 @@ class PanelController extends Controller
     }
 
     public function crearProducto(Request $request){
-        $usuario = Auth::user();
-        $nuevoProducto = new App\Models\Producto;
-        $nuevoProducto->titulo_producto = $request->tituloProducto;
-        $nuevoProducto->descripcion_producto = $request->descripcionProducto;
-        if($request->file('fotoProducto')){
-            $file = $request->file('fotoProducto');
-            $file->store('public/images');
-            $nuevoProducto->foto_producto = $file->hashName();
-        }
-        $nuevoProducto->categoria_producto = $request->categoriaProducto;
-        $nuevoProducto->precio_producto = $request->precioProducto;
-        $nuevoProducto->id_usuario = $usuario->id; 
-        $nuevoProducto->save();
+
+       // $estado = $this->estadoRepsoitory->findByslug('estado.producto.activo');
+
+        $usuario = $this->productoRepository->crear($request);
+
         return redirect('/mostrarproductos');
     }
 
@@ -52,8 +58,11 @@ class PanelController extends Controller
     }
 
     public function producto($id){
-        $prod = new App\Models\Producto;
-        $producto = $prod->findOrFail($id);
+        //$prod = new App\Models\Producto;
+        //$producto = $prod->findOrFail($id);
+
+        $producto = $this->productoRepository->find($id);
+
         return view('/panel/producto', compact('producto'));
     }
 
