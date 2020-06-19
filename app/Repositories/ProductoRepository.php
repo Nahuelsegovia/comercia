@@ -1,6 +1,7 @@
 <?php 
 
 namespace App\Repositories;
+use Illuminate\Support\Facades\Auth;
 
 use App\Models\Producto;
 
@@ -34,4 +35,5 @@ class ProductoRepository extends BaseRepository
 
         return $nuevoProducto;
     }
+
 }

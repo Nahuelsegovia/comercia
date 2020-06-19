@@ -18,7 +18,7 @@ Route::get('/', 'PanelController@home');
 
 Route::get('/imagen/{rutaImage}', 'PanelController@viewImage')->name('imagen.ver');
 Route::get('/mostrarproductos', 'PanelController@mostrarProductos');
-Route::get('/comprar', 'PanelController@comprar');
+Route::post('/categoria', 'PanelController@comprar');
 
 Route::middleware('auth')->group(function(){
 
@@ -28,7 +28,7 @@ Route::middleware('auth')->group(function(){
 
     Route::get('/producto/{id}', 'PanelController@producto');
 
-    Route::any('/eliminar/{id}', 'PanelController@eliminar');
+    Route::get('/eliminar/{id}', 'PanelController@eliminar')->name('eliminar.producto');
 
     Route::get('/editar/{id}', 'PanelController@editar');
 

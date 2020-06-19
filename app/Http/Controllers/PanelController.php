@@ -22,9 +22,7 @@ class PanelController extends Controller
 
     public function home(){
         $productos = App\Models\Producto::latest()->take(10)->get();
-
         //$productos = $this->productoRepository->find();
-        
         return view('/index', compact('productos'));
     }
 
@@ -37,7 +35,6 @@ class PanelController extends Controller
     public function crearProducto(Request $request){
 
        // $estado = $this->estadoRepsoitory->findByslug('estado.producto.activo');
-
         $usuario = $this->productoRepository->crear($request);
 
         return redirect('/mostrarproductos');
@@ -53,14 +50,13 @@ class PanelController extends Controller
     public function mostrarProductos(){
         $usuario = Auth::user();
         $productos = App\Models\Producto::where('id_usuario', $usuario->id)->get();
-        return view('/panel/mostrarProductos', compact('productos'));
+        return view('/panel/mostrarProductos', compact('productos', 'usuario'));
         return view('/index', compact('productos'));
     }
 
     public function producto($id){
         //$prod = new App\Models\Producto;
         //$producto = $prod->findOrFail($id);
-
         $producto = $this->productoRepository->find($id);
 
         return view('/panel/producto', compact('producto'));
@@ -86,12 +82,14 @@ class PanelController extends Controller
     }
 
    
-    public function comprar(){
-        echo 'Hola compra';
+    public function comprar(Request $request){
+        $categoria = $request->categoria;
+        $traerProducto = App\Models\Producto::where('categoria_producto', $categoria)->get()->all();
+        return $traerProducto;
     }
+
+
+
+
+
 }
-
-
-
-
-

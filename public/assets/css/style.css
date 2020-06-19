@@ -3140,3 +3140,11 @@ div#productslist {
     background: #098d73;
     color: white;
 }
+
+.menupanel a{
+    margin:10px;
+}
+
+.nombreTienda{
+    color: white;
+}

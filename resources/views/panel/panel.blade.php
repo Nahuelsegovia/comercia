@@ -25,17 +25,17 @@
                                     <!-- Navbar Collapse -->
                                     <div class="navbar-collapse collapse">
                                         <!-- nav -->
-                                        <ul class="nav navbar-nav">
+                                        <ul class="nav navbar-nav menupanel">
                                             <li>
                                                 <a href="index.html"></a>
                                             </li>
                                            
-                                                <a href="faq-with-sidebar.html">
-                                                Mis productos
+                                                <a href="" class="nombreTienda">
+                                                Usuario : {{$usuario->nombre_tienda}}
                                                 </a>
 
-                                                <a href="faq-with-sidebar.html">
-                                                {{$usuario->usuario}}
+                                                <a href="/mostrarproductos">
+                                                Mis productos
                                                 </a>
                                             </li>
                                             <li>

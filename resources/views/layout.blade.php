@@ -63,7 +63,7 @@
          </div>
 
       <footer>
-         @include('/includes/footer')
+         @include('/includes/footer') 
       </footer>
       <!--//===footer-main-section End==//-->
       <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -82,4 +82,3 @@
       <script src="https://kit.fontawesome.com/f5a6b916a8.js" crossorigin="anonymous"></script>
    </body>
 </html>
-

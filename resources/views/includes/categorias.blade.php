@@ -17,7 +17,9 @@
                                         <div class="categorie-text-box">
                                             <h4><a href="collection-list-sidebar.html">Comidas</a></h4>
                                             <p>Encontrá las mejores comidas locales ;)</p>
-                                            <form action="/comprar" method="get">
+                                            <form action="/categoria" method="post">
+                                            @csrf
+                                            <input type="hidden" name="categoria" value="comidas">
                                             <input type="submit" class="itg-button mar-top20" value="Ver productos">
                                             </form>
                                         </div>
@@ -33,7 +35,9 @@
                                         <div class="categorie-text-box">
                                             <h4><a href="collection-list-sidebar.html">Ropa</a></h4>
                                             <p>Las prendas que buscás, en tu cudad.</p>
-                                            <form action="/comprar" method="get">
+                                            <form action="/categoria" method="post">
+                                            @csrf
+                                            <input type="hidden" name="categoria" value="ropa">
                                             <input type="submit" class="itg-button mar-top20" value="Ver productos">
                                             </form>
                                         </div>
@@ -49,7 +53,9 @@
                                         <div class="categorie-text-box">
                                             <h4><a href="collection-list-sidebar.html">Tecnología</a></h4>
                                             <p>Celulares, Notebooks, Tablets.</p>
-                                            <form action="/comprar" method="get">
+                                            <form action="/categoria" method="post">
+                                            @csrf
+                                            <input type="hidden" name="categoria" value="tecnologia">
                                             <input type="submit" class="itg-button mar-top20" value="Ver productos">
                                             </form>
                                         </div>
@@ -65,7 +71,9 @@
                                         <div class="categorie-text-box">
                                             <h4><a href="collection-list-sidebar.html">Farmacia</a></h4>
                                             <p>Encontrá los precios de tus farmacaias locales.</p>
-                                            <form action="/comprar" method="get">
+                                            <form action="/categoria" method="post">
+                                            @csrf
+                                            <input type="hidden" name="categoria" value="farmacia">
                                             <input type="submit" class="itg-button mar-top20" value="Ver productos">
                                             </form>
                                         </div>
@@ -82,7 +90,9 @@
                                         <div class="categorie-text-box">
                                             <h4><a href="collection-list-sidebar.html">Ferretería</a></h4>
                                             <p>¿Algo roto en casa? Encontrá los productos de tu ferretería local.</p>
-                                            <form action="/comprar" method="get">
+                                            <form action="/categoria" method="post">
+                                            @csrf
+                                            <input type="hidden" name="categoria" value="ferreteria">
                                             <input type="submit" class="itg-button mar-top20" value="Ver productos">
                                             </form>
                                         </div>
@@ -99,7 +109,9 @@
                                         <div class="categorie-text-box">
                                             <h4><a href="collection-list-sidebar.html">Bebidas</a></h4>
                                             <p>Para festejar, para relajar, porque sí. Siempre viene bien una bebida fría</p>
-                                            <form action="/comprar" method="get">
+                                            <form action="/categoria" method="post">
+                                            @csrf
+                                            <input type="hidden" name="categoria" value="bebidas">
                                             <input type="submit" class="itg-button mar-top20" value="Ver productos">
                                             </form>
                                         </div>
@@ -116,7 +128,9 @@
                                         <div class="categorie-text-box">
                                             <h4><a href="collection-list-sidebar.html">Cosméticos</a></h4>
                                             <p>Los mejores productos cosméticos en tu ciudad.</p>
-                                            <form action="/comprar" method="get">
+                                            <form action="/categoria" method="post">
+                                            @csrf
+                                            <input type="hidden" name="categoria" value="cosmeticos">
                                             <input type="submit" class="itg-button mar-top20" value="Ver productos">
                                             </form>
                                         </div>
@@ -133,7 +147,9 @@
                                         <div class="categorie-text-box">
                                             <h4><a href="collection-list-sidebar.html">Servicios</a></h4>
                                             <p>Si necesitás servicios, acá los vas a encontrar.</p>
-                                            <form action="/comprar" method="get">
+                                            <form action="/categoria" method="post">
+                                            @csrf
+                                            <input type="hidden" name="categoria" value="servicios">
                                             <input type="submit" class="itg-button mar-top20" value="Ver productos">
                                             </form>
                                         </div>
