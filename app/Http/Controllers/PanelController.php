@@ -85,7 +85,7 @@ class PanelController extends Controller
     public function comprar(Request $request){
         $categoria = $request->categoria;
         $traerProducto = App\Models\Producto::where('categoria_producto', $categoria)->get()->all();
-        return $traerProducto;
+        return view('productos-categoria', compact('traerProducto'));
     }
 
 

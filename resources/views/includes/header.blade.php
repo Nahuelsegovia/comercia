@@ -86,9 +86,10 @@
                                                 Preguntas frecuentes 
                                                 </a>
                                             </li>
+
                                             <li>
-                                                <a href="contact-page.html">
-                                                Contacto
+                                                <a href="/login">
+                                                Quiero vender
                                                 </a>
                                             </li>
                                         </ul>
